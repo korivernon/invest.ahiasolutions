@@ -226,10 +226,6 @@ canvas {
   align-items: center;
 }
 
-.particles-js-canvas-el {
-  position: absolute;
-}
-
 #particle-section {
   margin: 0 auto;
   height: 400px;
@@ -238,16 +234,16 @@ canvas {
 /* ---- stats.js ---- */
 
 .float-particles {
-  position: fixed;
-  top: 20%;
-  left: 15%;
-  width: 80px;
   color: #13e8e9;
   font-size: 3em;
   text-align: center;
   padding-bottom: 2px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
+}
+
+.particles-js-canvas-el {
+  position: absolute;
 }
 
 .js-float-particles {
