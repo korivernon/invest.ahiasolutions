@@ -234,7 +234,7 @@ canvas {
 /* ---- stats.js ---- */
 
 .float-particles {
-  position: absolute;
+  position: fixed;
   top: 20%;
   left: 15%;
   width: 80px;
