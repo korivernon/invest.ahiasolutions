@@ -221,9 +221,13 @@ canvas {
   height: 100%;
   background-color: #606060;
   background-image: url("");
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.particles-js-canvas-el {
+  position: absolute;
 }
 
 #particle-section {
